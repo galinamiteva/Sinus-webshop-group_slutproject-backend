@@ -23,20 +23,28 @@ Resurs	Metod	Detaljer:
 
 1)
 /api/auth/	POST	Authentiserar user med email & password. Returnerar en JWT-token som används vid varje anrop API:et i en Authorization-header.
+
 2)
 /api/register/	POST	Registrerar en user enligt User-modellen.
+
 3)
 /api/products/	GET	Returnerar en lista på samtliga produkter.
+
 4)
 /api/products/:id	GET	Returnerar en enstaka produkt.
+
 5)
 /api/products/	POST	Skapar en ny produkt, se produkt-modell. Enbart tillgänglig för admins
+
 6)
 /api/products/:id	PATCH	Uppdaterar produkt, se produkt-modell. Enbart tillgänglig för admins
+
 7)
 /api/products/:id	DELETE	Tar bort en produkt med :id. Enbart tillgänglig för admins
+
 8)
 /api/orders	GET	Returnerar en lista på samtliga ordrar för admins, och ägda orders för inloggad användare.
+
 9)
 /api/orders	POST	Skapar en ny order, se order-modell.
 
