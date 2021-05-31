@@ -48,7 +48,8 @@ app.use('/api/orders', orderRoute)
 app.use('/api/products', productRoute)
 
 
-//Route for att rensa cookie efter autorization - Skrev bara i url:en och inte genom buton logout!
+
+//Route for att rensa cookie efter autorization. Skrev bara i url:en och inte genom buton logout!Det är inte på instruktionen!!!
 app.use('/logout', logout)
 
 
