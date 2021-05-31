@@ -1,0 +1,29 @@
+{
+  "name": "sinus-webshop",
+  "version": "1.0.0",
+  "description": "## Arbetssätt Git Flow Agilt och Trello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zocom-david-lundholm/nackademin-slutprojekt-backend.git"
+  },
+  "keywords": [],
+  "author": "Gala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zocom-david-lundholm/nackademin-slutprojekt-backend/issues"
+  },
+  "homepage": "https://github.com/galinamiteva/Sinus-webshop-slutproject-backend",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {}
+}

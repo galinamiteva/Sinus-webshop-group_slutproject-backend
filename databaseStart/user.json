@@ -1,0 +1,36 @@
+[
+  {
+      "email": "admin@yahoo.com",
+      "name": "Gala Miteva",
+      "role": "admin",
+      "adress": {
+          "street": "Frivägen 3",
+          "zip": "252462",
+          "city": "Varberga"
+      },
+      "payment": {
+          "cardOwner": "Gala Miteva",
+          "cardNumber": "1234 5678 9101 1121",
+          "validUntil": "12 / 22",
+          "cvv": "456"
+      },
+      "ordersHistory": []
+  },
+  {
+      "email": "customer@yahoo.com",
+      "name": "Aleks Miteva",
+      "role": "customer",
+      "adress": {
+          "street": "Frivägen 4",
+          "zip": "252462",
+          "city": "Varberga"
+      },
+      "payment": {
+          "cardOwner": "Aleks Miteva",
+          "cardNumber": "1234 5678 9101 1121",
+          "validUntil": "12 / 24",
+          "cvv": "123"
+      },
+      "ordersHistory": []
+  }
+]
