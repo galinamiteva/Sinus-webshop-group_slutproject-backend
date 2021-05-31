@@ -16,22 +16,11 @@ async function getOrders(req, res) {
     ])
     res.send(orders)
 
-    } else if (req.user.role === 'user') {
-      // Tillfällig array dit vi pushar in produkter som beställs. 
-      const orderProducts = [];
+    } else if (req.user.role === 'customer') {
+     
 
       const user = await User.findOne({_id:req.user._id}).populate('orderHistory');
-      // Async funktion för att kunna pusha in ordrar i vår array och skicka tillbaka det till frontenden. 
-                async function addToHistory() {
-                    for (const id of user.orderHistory) {
-                        const order = await Order.findById(id)
-                        orderProducts.push(order);
-                    }
-                    res.json(orderProducts)
-                } 
-                // Här anropar vi funktionen.
-                addToHistory();
-
+      res.json(user.orderHistory);
 
     }
         
